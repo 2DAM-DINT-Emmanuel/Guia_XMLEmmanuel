@@ -94,6 +94,7 @@ public class XMLUIBuilder {
             return null;
         }
     }
+    
     /**
     * Recorre recursivamente los hijos del elemento XML y los añade al contenedor Swing.
     * @param e Elemento XML padre
@@ -127,6 +128,7 @@ public class XMLUIBuilder {
         }
         }
     }
+    
     /** Crea un componente Swing según la etiqueta del XML */
     private Component crearComponente(Element e) {
         String tag = e.getTagName();
