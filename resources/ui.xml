@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<interfaz titulo="Demo XML" layout="BorderLayout">
+    <panel region="North" layout="FlowLayout">
+        <label texto="Título generado desde XML"/>
+        <button texto="Guardar" evento="guardar"/>
+        <button texto="Saludar" evento="saludar"/>
+        <textfield columnas="20"/>
+    </panel>
+    <panel region="Center" layout="FlowLayout">
+        <label texto="Zona central"/>
+    </panel>
+</interfaz>
+
+
